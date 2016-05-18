@@ -1,0 +1,6 @@
+.ft-input-label {
+	position: absolute;
+	padding: 5px;
+	font-size: 14px;
+	transition: all .2s ease;
+}

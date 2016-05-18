@@ -1,0 +1,23 @@
+<h3>Rich</h3>
+
+<div style="width:300px;">
+  <ng2-ft-select [allowClear]="false"
+              [items]="items"
+              [labelPath]="'name'"
+              [valuePath]="'hex'"
+              [disabled]="disabled"
+              [(value)]="value"
+              (removed)="removed($event)"
+              (typed)="typed($event)"
+              placeholder="No city selected">
+  </ng2-ft-select>
+</div>
+
+<label for="checkbox" class="disable-all" [class.disabled]="disabled">{{disabled ? 'Enable' : 'Disable'}}</label>
+<input type="checkbox" id="checkbox" [(ngModel)]="disabled">
+
+<div class="divider"></div>
+
+<div class="colorbox" style="background-color: #666666"></div> #testando
+
+<p> value: {{value}}</p>

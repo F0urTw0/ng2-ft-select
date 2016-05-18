@@ -1,0 +1,38 @@
+:host {
+	display: block;
+	padding: 0 16px;
+}
+
+/*input {
+	width: 250px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0 0 0 8px;
+}*/
+
+.divider {
+	clear: both;
+	border: 1px solid #eee;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.divider:last-child {
+	margin-bottom: 50px;
+}
+
+.disable-all {
+	display: inline-block;
+	color: #FFFFFF;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #222222;
+}
+.disable-all.disabled {
+  background-color: #106cc8;
+}
+#checkbox {
+	display: none;
+}

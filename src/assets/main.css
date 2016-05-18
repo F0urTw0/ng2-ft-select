@@ -1,0 +1,67 @@
+/* Reset */
+html,
+body,
+div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box-sizing border-box */
+* {
+  box-sizing: border-box;
+}
+
+/* Set up a default font and some padding to provide breathing room */
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.divider {
+	clear: both;
+	border: 1px solid #eee;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.divider:last-child {
+	margin-bottom: 50px;
+}
+
+.disable-all {
+	cursor: pointer;
+	display: inline-block;
+	color: #FFFFFF;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #222222;
+}
+.disable-all.disabled {
+  background-color: #106cc8;
+}
+#checkbox {
+	display: none;
+}
+
+.colorbox {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+}
+
+.darklabel {
+	width: calc(100% - 40px);
+	padding: 50px;
+	margin: 20px;
+	border-radius: 5px;
+	background-color: #222222;
+}
+.darklabel h3 {
+	color: #FFFFFF;
+}

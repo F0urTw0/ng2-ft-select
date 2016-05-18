@@ -1,0 +1,19 @@
+<h3>Children</h3>
+
+<div style="width:300px;">
+	<ng2-ft-select [allowClear]="true"
+								 [items]="items"
+								 [disabled]="disabled"
+								 [(value)]="value"
+								 (removed)="removed($event)"
+								 (typed)="typed($event)"
+								 placeholder="No city selected">
+	</ng2-ft-select>
+</div>
+
+<label for="checkbox" class="disable-all" [class.disabled]="disabled">{{disabled ? 'Enable' : 'Disable'}}</label>
+<input type="checkbox" id="checkbox" [(ngModel)]="disabled">
+
+<div class="divider"></div>
+
+<p> value: {{value.text}}</p>
