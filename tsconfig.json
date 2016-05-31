@@ -1,21 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "noImplicitAny": true,
     "module": "commonjs",
-    "moduleResolution": "node",
-    "declaration": false,
-    "removeComments": true,
-    "noLib": false,
+    "target": "ES5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "pretty": true,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitUseStrict": false,
-    "noFallthroughCasesInSwitch": true
+    "declaration": true
   },
   "exclude": [
     "node_modules",
